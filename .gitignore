@@ -1,3 +1,5 @@
 bin/App.class
 bin/CreaStudente.class
 bin/Studente.class
+bin/ContoBancario.class
+bin/UsaContoBancario.class
