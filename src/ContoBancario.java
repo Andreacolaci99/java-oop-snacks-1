@@ -1,8 +1,8 @@
 public class ContoBancario {
 
-    public double numeroConto;
-    public double saldo;
-    public double saldoCorrente;
+    private double numeroConto;
+    private double saldo;
+    private double saldoCorrente;
     
     public ContoBancario(double numeroConto){
         saldo = 0;
@@ -17,4 +17,7 @@ public class ContoBancario {
         saldoCorrente -= inserisciImportoDaPrelevare;
         return saldoCorrente;
     }
+    public double visualizzaSaldo(){
+        return saldoCorrente;
+        }
 }
