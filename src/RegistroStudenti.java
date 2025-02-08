@@ -13,6 +13,10 @@ public class RegistroStudenti {
           studenti[i] = studenteDaAggiungere;
           return;
         }
+        if(studenteDaAggiungere.equals(studenti[i])){
+          System.out.println(studenteDaAggiungere + " è già presente");
+          return;
+        }
       }
     }
         @Override
